@@ -29,9 +29,30 @@ nav a{
     font-size: 18px;
     font-weight: 400;
     text-decoration: none;
+    color: #829AB1;
 }
 
 nav a:hover{
     font-weight: bold;
+    color: #164F78;
+}
+
+.mypict{
+    float: right;
+    height: 700px;
+    width: 500px;
+    margin-right: 35px;
+    margin-bottom: 2rem;
+    top: 200px;
+}
+
+.greeting{
+    margin-top: 5rem;
+    margin-left: 5rem;
+}
+
+.name{
+    margin-top: 2rem;
+    margin-left: 5rem;
 }
 
