@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap');
 
+@media screen and (max-width: 1000px) {
+    main {
+      width: 100%;
+      padding: 0;
+    }
+  }
+
 
 body{
     font-family: 'Quicksand',sans-serif;
@@ -10,6 +17,20 @@ body{
 main{
     padding: 35px;
     overflow: auto;
+}
+
+main.services-content{
+    padding: 0;
+}
+
+div#container{
+    background-color: #F0F4F8;
+    color: #003E6B;
+}
+
+ul#horizontal-ic-services{
+    display: inline-block;
+    float: right;
 }
 
 nav li{
@@ -44,14 +65,16 @@ nav a:hover{
 
 .mypict{
     float: right;
-    height: 700px;
-    width: 500px;
+    right: auto;
+    height: 600px;
+    width: 400px;
     margin-right: 35px;
     margin-bottom: 2rem;
     top: 200px;
 }
 .intro{
     color: #164F78;
+    font-size: larger;
 }
 .name{
     color: #164F78;
@@ -64,12 +87,62 @@ nav a:hover{
     padding-top: 2rem;
 }
 
+ul#horizontal-ic li{
+    display: inline;
+    padding: 10px;
+      
+}
 
 
-@media screen and (max-width: 1000px) {
-    main {
-      width: 100%;
-      padding: 0;
-    }
+ul#horizontal-ic li:hover{
+    color: #164F78;
+   
+}
+
+.card {
+    box-shadow: 7px 4px 20px -2px #bfbfbf;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+div#services h2{
+    text-align: right;
+    padding-right: 4rem;
+}
+
+div#services h2#detail{
+    text-align: left;
+    padding-left: 3rem;
+}
+
+div#services h1{
+    padding-left: 3rem;
+}
+
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    background-color: #DCEEFB;
+    color: #0A558C;
+    width: max-content;
+    height: min-content;
   }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    background-color: #0A558C;
+    color: white;
+  }
+  
+  /* Add some padding inside the card container */
+  .container {
+    padding: 2px 16px;
+  }
+
+
+
+
 
