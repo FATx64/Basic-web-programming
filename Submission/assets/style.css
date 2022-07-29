@@ -26,6 +26,7 @@ main.services-content{
 div#container{
     background-color: #F0F4F8;
     color: #003E6B;
+    overflow: auto;
 }
 
 ul#horizontal-ic-services{
@@ -99,6 +100,7 @@ ul#horizontal-ic li:hover{
    
 }
 
+
 .card {
     box-shadow: 7px 4px 20px -2px #bfbfbf;
     border-radius: 5px;
@@ -120,6 +122,13 @@ div#services h1{
     padding-left: 3rem;
 }
 
+#services ul li{
+    display: inline;
+    float: right;
+    padding: 0 130px 100px 0;
+    margin-right: 4rem;
+}
+
 .card {
     /* Add shadows to create the "card" effect */
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -128,6 +137,7 @@ div#services h1{
     color: #0A558C;
     width: max-content;
     height: min-content;
+    
   }
   
   /* On mouse-over, add a deeper shadow */
@@ -140,6 +150,7 @@ div#services h1{
   /* Add some padding inside the card container */
   .container {
     padding: 2px 16px;
+    
   }
 
 
