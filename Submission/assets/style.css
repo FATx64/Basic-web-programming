@@ -104,21 +104,21 @@ ul#horizontal-ic li:hover{
 .card {
     box-shadow: 7px 4px 20px -2px #bfbfbf;
     border-radius: 5px;
-    padding: 20px;
+    padding: 15px;
     margin-top: 20px;
 }
 
-div#services h2{
+article#services h2{
     text-align: right;
     padding-right: 4rem;
 }
 
-div#services h2#detail{
+article#services h2#detail{
     text-align: left;
     padding-left: 3rem;
 }
 
-div#services h1{
+article#services h1{
     padding-left: 3rem;
 }
 
@@ -135,8 +135,8 @@ div#services h1{
     transition: 0.3s;
     background-color: #DCEEFB;
     color: #0A558C;
-    width: max-content;
-    height: min-content;
+    width: 250px;
+    height: 250px;
     
   }
   
