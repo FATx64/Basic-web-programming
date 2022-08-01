@@ -34,8 +34,9 @@ ul#horizontal-ic-services{
     float: right;
 }
 
+
 nav li{
-  
+    
     float: right;
     color: #f2f2f2;
     text-align: center;
@@ -46,6 +47,16 @@ nav li{
     
 }
 
+nav{
+    background: #ffffff;
+    position: sticky;
+    top: 0;
+}
+
+header {
+    display: inline;
+}
+
 .logo{
     padding: 14px 16px;
     margin-left: 30px;
@@ -53,6 +64,7 @@ nav li{
 }
 
 nav a{
+
     font-size: 18px;
     font-weight: 400;
     text-decoration: none;
@@ -152,6 +164,23 @@ article#services h1{
     padding: 2px 16px;
     
   }
+
+  main.closing{
+    color: #003E6B;
+  }
+
+  main.closing h1 img{
+    width: 40px;
+    height: 40px;
+  }
+
+  footer{
+    padding: 20px;
+    color: white;
+    background-color: #0A558C;
+    font-weight: bold;
+    text-align: center;
+}
 
 
 
