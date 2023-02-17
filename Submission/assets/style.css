@@ -46,7 +46,7 @@ nav li{
     font-size: 17px;
     
 }
-
+/*use this code to put nav always in top whenever it scrolling */
 nav{
     background: #ffffff;
     position: sticky;
@@ -184,7 +184,7 @@ article#services h1{
   .card-list {
     display: flex;
     justify-content: flex-start;
-    margin-left: 400px;
+    margin-left: 250px;
     flex-wrap: wrap;
     overflow: auto;
   }
@@ -233,6 +233,8 @@ article#services h1{
     background-color: #0A558C;
     color: white;
   }
+
+
 
 
 
