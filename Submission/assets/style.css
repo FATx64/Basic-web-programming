@@ -184,7 +184,7 @@ article#services h1{
   .card-list {
     display: flex;
     justify-content: flex-start;
-    margin-left: 250px;
+    margin-left: 200px;
     flex-wrap: wrap;
     overflow: auto;
   }
@@ -233,6 +233,18 @@ article#services h1{
     background-color: #0A558C;
     color: white;
   }
+
+/* portofolio part*/
+
+.portofolio-content .card{
+  background-color: white;
+  box-shadow: none;
+  border: none;
+}
+
+.portofolio-content .card:hover{
+  color: #164F78;
+}
 
 
 
