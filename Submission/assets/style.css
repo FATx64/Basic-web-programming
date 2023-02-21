@@ -263,8 +263,7 @@ article#services h1{
   background-color: transparent;
   width: 300px;
   height: 200px;
-  border: 1px solid #f1f1f1;
-  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  /*perspective: 1000px; /* Remove this if you don't want the 3D effect */
 }
 
 /* This container is needed to position the front and back side */
@@ -291,15 +290,11 @@ article#services h1{
   backface-visibility: hidden;
 }
 
-/* Style the front side (fallback if image is missing) */
-.flip-card-front {
-  background-color: #bbb;
-  color: black;
-}
 
 /* Style the back side */
 .flip-card-back {
-  background-color: dodgerblue;
+  border-radius: 20px;
+  background-color: #164F78;
   color: white;
   transform: rotateY(180deg);
 }
