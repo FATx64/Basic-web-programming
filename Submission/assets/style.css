@@ -56,6 +56,7 @@ nav li{
     margin-right: 30px;
     text-decoration: none;
     font-size: 17px;
+
     
 }
 /*use this code to put nav always in top whenever it scrolling */
@@ -269,7 +270,6 @@ article#services h1{
 
 /* This container is needed to position the front and back side */
 .flip-card-inner {
-  position: relative;
   width: 100%;
   height: 100%;
   text-align: center;
